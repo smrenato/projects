@@ -1,0 +1,4 @@
+site_name: Github Projects
+site_url: https://smrenato.projects/projects
+theme:
+  name: material

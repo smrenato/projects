@@ -1,2 +1,2 @@
-# projects
-github page to show things I learn
+- Github page to show things I learn
+- Powered by mkdocs-material

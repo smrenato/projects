@@ -1,19 +1,15 @@
-[tool.poetry]
+[project]
 name = "projects"
 version = "0.1.0"
-description = "Pages about my projects"
-authors = ["smrenato <renatosmx@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-ruff = "^0.6.4"
-taskipy = "^1.13.0"
-rich = "^13.8.0"
-typer = "^0.12.5"
-mkdocs-material = "^9.5.34"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "fontawesome-markdown>=0.2.6",
+    "markdown>=3.7",
+    "mkdocs-material>=9.5.34",
+    "mkdocs-mermaid2-plugin>=1.1.1",
+    "pygments>=2.18.0",
+    "pymdown-extensions>=10.9",
+    "ruff>=0.6.5",
+]
